@@ -1,5 +1,7 @@
 # Manowar
 
+[![Gem Version](https://badge.fury.io/rb/manowar.svg)](http://badge.fury.io/rb/manowar)
+
 A utility library for writing modular, functional Ruby.
 
 ## Installation
