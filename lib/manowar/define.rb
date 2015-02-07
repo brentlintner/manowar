@@ -10,7 +10,7 @@ module Manowar
   private
 
   def define_namespace
-    Proc.new { |base, name|
+    proc { |base, name|
       base += "::#{name}"
       Kernel.eval "module #{base} end"
       base
